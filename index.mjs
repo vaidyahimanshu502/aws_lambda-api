@@ -1,7 +1,7 @@
 // index.mjs
 import { MongoClient } from "mongodb";
 
-// Initialize the MongoDB client once outside the handler function
+// Initialize the MongoDB client 
 const uri = "mongodb+srv://assignment:edviron@cluster0.ebxruu8.mongodb.net";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 await client.connect();
